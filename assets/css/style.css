@@ -1,0 +1,479 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+    margin: 0px;
+	padding: 0px;
+}
+
+
+.header{
+	width: 100%;
+	background-color: #254151;
+	display:flex;
+    
+}
+
+.logo{
+	width: 50px;
+	height: 50px;
+  
+}
+.nav-logo{
+	width: 10%;
+	display: flex;
+	align-items: center;;
+}
+.nav-logo p{
+	font-family: fantasy;
+	padding-left: 5px;
+	color: white;
+	font-size: 14px;
+}
+.nav{
+	width: 80%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav ul li{
+    display: inline;
+    margin: 5px;
+    
+}
+
+.nav ul li a{
+	font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+	list-style-type: none;
+
+}
+.nav ul li a:hover{
+	color: red;
+}
+
+.nav-btn {
+	width: 10%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+
+    background-color: #F4CE50;
+}
+
+.nav-btn button{
+    width: 100%;
+    color: black;
+    background-color: #F4CE50;
+    cursor: pointer;
+    font-family: fantasy; 
+    border: none;
+}
+
+.hero-banner{
+	background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    padding: 120px 0px 270px 0px;
+    background-position-y: 100%;
+
+}
+
+.banner-heading h1{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+
+}
+ 
+.banner-heading p {
+	text-align: center;
+	color: yellow;
+	font-size: 15px;
+
+}
+div.container{
+	width: 95%;
+	margin: 0 auto;
+}
+.mission{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -100px;
+
+}
+.our-mission{
+	width: 70%;
+	text-align: center;
+	background-color: #EAEAE8;
+	padding: 40px 0;
+
+}
+.our-mission h1{
+	font-family: sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+.our-mission p{
+	max-width: 470px;
+	margin: 0 auto;
+	font-family: sans-serif;
+    padding-top: 10px;
+}
+.our-mission a{
+	color: #44B29D;
+	text-decoration: none;
+	display: block;
+	padding-top: 20px;
+	font-family: sans-serif;
+
+}
+.mission-pledge{
+	width: 30%;
+	background: linear-gradient( rgba(168,69,63,0.8), rgba(168,69,63,0.8)), url('../images/pledge.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    text-align: center;
+}
+.mission-pledge h1{
+	max-width: 150px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	color: #FFFFFF;
+	font-weight: 800;
+	letter-spacing: 1px;
+
+}
+.mission-pledge button{
+	width: 29%;
+    padding: 8px 5px 8px 5px;
+    margin: 25px 0px 0px 0px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.mission-news{
+	width: 70%;
+	text-align: center;
+	background-color: #44B29D;
+	padding: 40px 0;
+
+}
+.mission-news h1{
+	font-family: sans-serif;
+	color: #FFFFFF;
+	font-weight: 800;
+	letter-spacing: 1px;
+
+}
+.mission-news p{
+	max-width: 470px;
+	margin: 0 auto;
+	 font-family: sans-serif;
+	 color: #FFFFFF;
+	 padding-top: 15px; 
+
+}
+.mission-news a{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-top: 20px;
+	font-family: sans-serif;
+	display: block;
+}
+.mission-subscribe{
+	width: 30%;
+	background-color: #254151;
+    padding: 40px 0;
+    text-align: center;
+}
+.mission-subscribe h1{
+	max-width: 150px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	color: #FFFFFF;
+	font-weight: 800;
+	letter-spacing: 1px;
+
+
+}
+.mission-subscribe p{
+	padding-top: 15px; 
+	font-family: sans-serif;
+	color: #FFFFFF;
+	font-size: 12px;
+
+
+}
+.mission-subscribe input[type=email]{
+	width: 80%;
+    padding: 9px 0px 7px 7px;
+    margin: 15px 0px 0px 0px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    
+}
+.icon-env{
+	border-bottom: 1px solid white;
+	width: 40%;
+	margin: 0 auto;
+
+}
+.i-envelope{
+       color: #FFFFFF;
+}
+.mission-subscribe button{
+	border: none;
+    margin: 15px 0px 0px 0px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    
+}
+.events-heading{
+	width: 100%;
+}
+h2{
+	text-align: center;
+	padding: 70px 0px 52px 0px;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+.events{
+	width: 55%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.events-card{
+	width: 32%;
+	border: 1px solid lightgray;
+	text-align: center;
+	font-family: sans-serif;
+}
+.events-card h3{
+	padding-top: 25px; 
+	font-size: 16px;
+	letter-spacing: 1px;
+
+}
+.events-card p{
+	padding-top: 12px;
+	font-size: 12px;
+}
+
+.events-card img{
+	width: 100%;
+	height: 50%;
+}
+.events-card button{
+	width: 57%;
+    padding: 10px 5px 10px 5px;
+    margin: 37px 0px 62px 0px;
+    background-color: #254151;
+    border-radius: 20px;
+    border: 1px solid gray;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif; 
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.donate{
+	width: 98%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+
+	background: linear-gradient( rgba(168,69,63,0.7), rgba(168,69,63,0.7)), url('../images/donate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    padding: 45px 0px 45px 0px;
+    background-position-y: 54%;
+    margin-top: 50px;
+
+}
+.donate-now{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.donate-now h3{
+	color: white;
+	font-family: sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+.donate-now button{
+	
+    width: 13%;
+    padding: 10px 5px 10px 5px;
+    margin-left: 60px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: #CD311F;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.latest-news{
+	width: 55%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.latest-news h1{
+	text-align: center;
+	padding: 100px 0px 50px 0px;
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+
+
+.news{
+	width: 32%;
+	font-family: sans-serif;
+}
+.news h6{
+	font-family: sans-serif;
+	font-size: 19px;
+}
+.news p{
+	font-family: sans-serif;
+	padding: 10px 0px 25px 0px;
+	font-size: 13px;
+}
+input[type=text] {
+    width: 75%;
+    padding: 6px 20px 6px 10px;
+    margin: 5px 0px 50px 0px;
+    border: none;
+    color: white; 
+}
+
+.icon{
+	border-top: 1px solid lightgray;
+    width: 90%;
+	
+}
+
+.i-heart{
+     color: red;
+}
+
+
+
+
+footer{
+	width: 100%;
+	background-color: #EAEAE8;
+}
+.footer-main{
+	width: 55%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.contact{
+	width: 32%;
+}
+.contact h4{
+	font-family: sans-serif;
+	padding: 45px 0px 5px;
+	font-weight: 800;
+}
+.contact ul{
+    list-style-type: none;
+
+}
+.contact li{
+    margin: 5px 0px 0px 0px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.contact ul li a{
+	font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    
+}
+.subscribe{
+	width: 32%;
+}
+.subscribe h4{
+	padding: 45px 0px 20px;
+	font-family: sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+
+}
+.subscribe input[type=email]{
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    padding: 8px 0px 8px 20px;
+    font-size: 10px;
+
+}
+
+.subscribe button{
+	border: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    font-family: sans-serif;
+    padding-left: 20px; 
+ }  
+
+.charity-number{
+	width: 100%;
+	background-color: #44B29D;
+
+}
+.charity-number h3{
+	text-align: center;
+	padding: 25px 0;
+	font-family: sans-serif;
+	color: #254151;
+	font-size: 17px;
+}
+.copyright{
+	width: 100%;
+	background-color: #254151;
+}
+.copyright h5{
+	text-align: center;
+	padding: 15px 0;
+	color: white;
+	font-family: sans-serif;
+}
